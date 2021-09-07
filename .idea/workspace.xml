@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570382e5-af53-498b-86bc-55a7b9fd5836" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai5_HTML_Form&amp;Table/Bai_Tap/TaoBangNangCao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai5_HTML_Form&amp;Table/Bai_Tap/TaoBangNangCao1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai7BienKieuDuLieuVaToanTu/Bai_Tap/ung_dung_chuyen_doi_tien_te/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai7BienKieuDuLieuVaToanTu/Bai_Tap/ung_dung_chuyen_doi_tien_te/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,8 @@
       <updated>1629950649247</updated>
       <workItem from="1629950654948" duration="1181000" />
       <workItem from="1630378672875" duration="4491000" />
+      <workItem from="1630892186363" duration="1837000" />
+      <workItem from="1630910200673" duration="2905000" />
     </task>
     <servers />
   </component>
@@ -64,5 +64,9 @@
       <screen x="0" y="25" width="1280" height="703" />
     </state>
     <state x="355" y="188" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1280.703@0.25.1280.703" timestamp="1629951480356" />
+    <state x="295" y="48" key="search.everywhere.popup" timestamp="1630903692551">
+      <screen x="0" y="25" width="1280" height="699" />
+    </state>
+    <state x="295" y="48" key="search.everywhere.popup/0.25.1280.699@0.25.1280.699" timestamp="1630903692551" />
   </component>
 </project>
