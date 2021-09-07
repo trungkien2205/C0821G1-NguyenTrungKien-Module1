@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570382e5-af53-498b-86bc-55a7b9fd5836" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/baitap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai7BienKieuDuLieuVaToanTu/Bai_Tap/ung_dung_chuyen_doi_tien_te/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai7BienKieuDuLieuVaToanTu/Bai_Tap/ung_dung_chuyen_doi_tien_te/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,9 @@
       <workItem from="1630378672875" duration="4491000" />
       <workItem from="1630892186363" duration="1837000" />
       <workItem from="1630910200673" duration="2905000" />
+      <workItem from="1630980248390" duration="1289000" />
+      <workItem from="1631006613142" duration="3000" />
+      <workItem from="1631006777887" duration="1407000" />
     </task>
     <servers />
   </component>
