@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570382e5-af53-498b-86bc-55a7b9fd5836" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baitap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai9CauTrucDieuKien2/Bai_Tap/good_fast_cheap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai9CauTrucDieuKien2/Bai_Tap/good_fast_cheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai9CauTrucDieuKien2/Bai_Tap/luyen_tap_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai9CauTrucDieuKien2/Bai_Tap/myCss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +18,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -33,6 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -55,7 +60,7 @@
       <workItem from="1630910200673" duration="2905000" />
       <workItem from="1630980248390" duration="1289000" />
       <workItem from="1631006613142" duration="3000" />
-      <workItem from="1631006777887" duration="1407000" />
+      <workItem from="1631006777887" duration="3676000" />
     </task>
     <servers />
   </component>
