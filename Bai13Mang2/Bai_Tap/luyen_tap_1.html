@@ -73,34 +73,59 @@
 </script>-->
 
 <!--Bài 6-->
-<!--<script>
-    let array =[-5,-4,-3,-2,-1,1,2,3,4,5];
-    let soV = prompt("Nhập một số V:");
-    for (let i=0;i<array.length;i++) {
-        if (array[i] == soV) {
-            alert("V is in the array");
-        }else{
-            alert("V isn't in the array");
-        }
-    }
-</script>-->
+<!--<script>-->
+<!--    let array = new Array(10);-->
+<!--    let check = false;-->
+
+<!--    for (let i = 0; i < 10; i++) {-->
+<!--        array[i] = prompt("Nhập phần tử thứ " + (i+1) + " = ");-->
+<!--        if (array[i] == v) {-->
+<!--            check = true;-->
+<!--        }-->
+<!--    }-->
+<!--    let v = parseInt(prompt("Nhập số nguyên V = "));-->
+
+<!--    if (check) {-->
+<!--        alert("V is in the array");-->
+<!--    }   else {-->
+<!--        alert("V is not in the array");-->
+<!--    }-->
+<!--</script>-->
 
 <!--Bài 7-->
-<!--<script>
-    let array =[-5,-4,-3,-2,-1,1,2,3,4,5];
-    let soV = prompt("Nhập một số V:");
-    for (let i=0;i<array.length;i++) {
-        if (array[i] == soV) {
-            array.splice(i,1);
-            array.push(0);
-            break;
-        }
-    }
-    alert(array);
-</script>-->
+<!--<script>-->
+<!--    let array=[10];-->
+<!--    for(let i=0;i<10;i++)-->
+<!--    {-->
+<!--        let value=parseInt(prompt('Nhập phần tử thứ' +(i+1)));-->
+<!--        array[i] = value;-->
+<!--    }-->
+<!--    let temp=0;-->
+<!--    let v=parseInt(prompt('Nhập 1 số nguyên V'));-->
+<!--    let check = false;-->
+<!--    for(let i=0;i<10;i++)-->
+<!--    {-->
+<!--        if(v===array[i])-->
+<!--        {-->
+<!--            check = true;-->
+<!--            temp=i;-->
+<!--            break;-->
+<!--        }-->
+<!--    }-->
+<!--    if(check===true)-->
+<!--    {-->
+<!--        array.splice(temp,1);-->
+<!--        array.push(0);-->
+<!--        document.write(array.toString());-->
+<!--    }-->
+<!--    else-->
+<!--    {-->
+<!--        alert('V is not in the array')-->
+<!--    }-->
+<!--// </script>-->
 
 <!--Bài 8-->
-<!--<script>
+<script>
     let array =[-5,-4,-3,-2,-1,1,2,3,4,5];
     for (let i=0;i<array.length;i++) {
         array.sort(function(a,b) {
