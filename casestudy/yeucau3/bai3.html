@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tu = [5, 2, 9]
+    let mau = [6, 3, 8]
+    let maxFraction = []
+    let max = 0
+    let position
+    for(let i=0; i<tu.length; i++){
+        if((tu[i]/mau[i])>max){
+            max = tu[i]/mau[i]
+            position = i
+        }
+        maxFraction.push(max)
+    }
+    document.write(tu[position] + "/" + mau[position])
+</script>
+</body>
+</html>

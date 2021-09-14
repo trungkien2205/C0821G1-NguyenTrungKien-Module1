@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=parseInt(prompt("Nhập số nguyên :"));
+    let strA=[];
+    for(let i=0;i<=a;i++){
+        strA[i]=i;
+    }
+    let strB=[];
+    let sum =0;
+    for(let j=0;j<strA.length;j++){
+        sum=0;
+        for(let k=0;k<=j;k++ ){
+            sum+=k;
+        }
+        strB[j]=sum;
+    }
+    document.write(strA.join());
+    document.write("</br>");
+    document.write(strB.join());
+</script>
+</body>
+</html>

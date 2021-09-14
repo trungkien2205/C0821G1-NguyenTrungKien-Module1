@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let choose;
+    do {
+        choose = parseInt(prompt("Menu:" + "\n" +
+            "1.Cafe" + "\n" +
+            "2.Cam vắt" + "\n" +
+            "3.Nước ép cà rốt " + "\n" +
+            "4.Nước ép cà chua " + "\n" +
+            "5.Nước lọc " + "\n" +
+            "6.Nước dừa " + "\n" +
+            "7.Thoát."));
+        switch(choose){
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+                total1();
+                break;
+            case 5:
+                total2();
+                break;
+            case 6:
+                total3();
+                break;
+        }
+    }while (choose!==7);
+
+    function total1(){
+        let num=parseInt(prompt("Nhập số lượng ;"));
+        let total=num*10000;
+        alert("Số tiền thanh toán : " + total);
+    }
+
+    function total2(){
+        let num=parseInt(prompt("Nhập số lượng ;"));
+        let total=num*5000;
+        alert("Số tiền thanh toán : " + total);
+    }
+
+    function total3(){
+        let num=parseInt(prompt("Nhập số lượng ;"));
+        let total=num*20000;
+        alert("Số tiền thanh toán : " + total);
+    }
+</script>
+</body>
+</html>

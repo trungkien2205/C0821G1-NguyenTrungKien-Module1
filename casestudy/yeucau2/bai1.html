@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let total;
+    let wage=parseInt(prompt("Nhập tiền lương của bạn:"));
+    if (wage>=15000000){
+        total= wage/100*80;
+    }else if(wage<15000000 && wage>=7000000){
+        total= wage/100*90;
+    }else{
+        total= wage/100*95;
+    }
+    alert("Tiền công của bạn sau VAT là:"+ total);
+</script>
+</body>
+</html>
