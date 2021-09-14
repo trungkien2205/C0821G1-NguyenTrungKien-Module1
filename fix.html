@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = parseInt(prompt("Nhập số cần kiểm tra: "));
+    // Biến check để kiểm tra có phải là số nguyên tố hay không
+    let check = true;
+    if (number < 2){
+        alert("Không phải số nguyên tố");
+    } else {
+        //Sử dụng vòng lặp để xét, nếu number chia hết cho số nào từ 2 tới number - 1 thì không phải là số nguyên tố.
+        for (let i = 2; i <= number-1; i++ ){
+            if (number % i === 0){
+                check = false;
+                break;
+            }
+        }
+    }
+    // Kiểm tra check là true hay false
+    if (check){
+        alert("Là số nguyên tố")
+    } else {
+        alert("Không phải số nguyên tố");
+    }
+</script>
+</body>
+</html>

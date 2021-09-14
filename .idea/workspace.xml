@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570382e5-af53-498b-86bc-55a7b9fd5836" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fix.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +59,10 @@
       <workItem from="1630980248390" duration="1289000" />
       <workItem from="1631006613142" duration="3000" />
       <workItem from="1631006777887" duration="6317000" />
+      <workItem from="1631420066656" duration="1167000" />
+      <workItem from="1631500506777" duration="1293000" />
+      <workItem from="1631503512099" duration="1323000" />
+      <workItem from="1631521599080" duration="989000" />
     </task>
     <servers />
   </component>
@@ -68,9 +74,9 @@
       <screen x="0" y="25" width="1280" height="703" />
     </state>
     <state x="355" y="188" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1280.703@0.25.1280.703" timestamp="1629951480356" />
-    <state x="295" y="48" key="search.everywhere.popup" timestamp="1630903692551">
+    <state x="295" y="48" width="670" height="676" key="search.everywhere.popup" timestamp="1631500917922">
       <screen x="0" y="25" width="1280" height="699" />
     </state>
-    <state x="295" y="48" key="search.everywhere.popup/0.25.1280.699@0.25.1280.699" timestamp="1630903692551" />
+    <state x="295" y="48" width="670" height="676" key="search.everywhere.popup/0.25.1280.699@0.25.1280.699" timestamp="1631500917922" />
   </component>
 </project>
