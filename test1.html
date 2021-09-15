@@ -6,21 +6,14 @@
 </head>
 <body>
 <script>
-    let str=prompt("Nhập chuỗi kí tự :");
-    let arr= str.split("");
-    let a=prompt("nhập kí tự: ");
-    let count=0;
-    for(let i=0 ; i<arr.length;i++){
-        if(a==arr[i]){
-            count++;
+    let array=prompt("Nhập chuỗi ");
+    let total=0;
+    array.trim();
+    for ( let i=0;i<array.length;i++){
+        if ((array[i]===" ")&&(array[i+1]!==" ")){
+            total += 1;
         }
-    }
-    if(count!==0){
-        alert("Kí tự "+ a + " xuất hiện "+ count +" lần." )
-    }else{
-        alert("Không có kí tự trong chuỗi")
-    }
-    
+    }alert("Có " + (total) +" từ trong chuỗi");
 </script>
 
 </body>
