@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Thêm mới sản phẩm</h1>
+<input type="text" id="input1" placeholder="Nhập tên sản phẩm">
+<button type="button" onclick="addNewProduct(); edit()">Thêm mới</button>
+
+<div id="output"></div>
+</body>
+<script>
+
+    let arr = ["Iphone X", "Iphone 11", "Iphone 12"];
+
+    display();
+
+    let check = true;
+
+    let viTri;
+
+    //Thêm phần tử mới vào mảng. Nếu biến check = True thì mới cho thêm mới.
+    function addNewProduct() {
+        if (check===true) {
+            let nameProduct = document.getElementById("input1").value;
+            document.getElementById("input1").value = "";
+            if(nameProduct != "") {
+                arr.push(nameProduct);
+                display();
+            }
+        }
+    }
+
+    //Tạo 1 table.
+    function display() {
+        let table = "<table border='1'>" +
+            "<tr> <th> Tên sản phẩm </th></tr>";
+        for (let i = 0; i < arr.length; i++) {
+            table += "<tr>" +
+                "<td>" + arr[i] + "</td>" +
+                "<td><button onclick='showEdit(" + i + ")'>Sửa</button></td>" +
+                "<td><button onclick='del(" + i + ")'>Xóa</button></td>" +
+                "</tr>"
+        }
+        document.getElementById("output").innerHTML = table;
+    }
+
+    //Hàm để hiển thị sản phẩm cần sửa lên ô input, gán biến check = False để ghi click vào button thêm mới thì sẽ không chạy function addNewProduct.
+    function showEdit(index) {
+        document.getElementById("input1").value = arr[index];
+        //Biến vị trí để lưu giá trị index của sản phẩm
+        viTri = index;
+        check = false;
+    }
+
+    //Hàm để chỉnh sửa phần tử trong mảng. gán lại giá trị của biến check = True;
+    function edit() {
+        if(check === false) {
+            //Sử dụng biến viTri ở trên để truy cập tới sản phẩm muốn sửa trong mảng.
+            arr[viTri] = document.getElementById("input1").value;
+            display();
+            alert("Đã xóa thành công!")
+        }
+    }
+
+    //Xóa sản phẩm, chọn ok mưới xóa.
+    function del(index) {
+        if (confirm("Bạn muốn xóa Sản phẩm : " + arr[index] + " không?")){
+            arr.splice(index,1);
+            display();
+            alert("Đã xóa thành công!")
+        }
+    }
+
+</script>
+</html>
