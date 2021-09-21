@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Battery{
+        setEnergy=function(energy){
+            this.energy=energy;
+        };
+        getEnergy=function(){
+            return this.energy;
+        };
+        decreaseEnergy=function(){
+            if(this.energy>0){
+                this.energy--;
+            }
+        }
+    }
+    class FlashLamp{
+        setBattery = function (battery) {
+            this.battery = battery;
+        };
+        getBatteryInfo = function () {
+            return this.battery.getEnergy();
+        };
+        light = function () {
+            if(this.status){
+                alert("Lighting");
+            } else {
+                alert("Not lighting");
+            }
+        };
+        turnOn = function () {
+            this.status = true;
+        };
+        turnOff = function () {
+            this.status = false;
+        }
+    }
+</script>
+</body>
+</html>
